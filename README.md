@@ -35,5 +35,5 @@
 
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=很高兴一起交流;感谢您的访问&size=30)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=很高兴一起交流!;感谢您的访问!&size=30)](https://git.io/typing-svg)
 
