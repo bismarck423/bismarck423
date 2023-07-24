@@ -9,7 +9,9 @@
 - 🌐 我不断学习和提升自己的技能。
 - 📚 我接受了广泛的编程语言和框架的训练。
 - 🎮 我喜欢处理数据和解决复杂问题。
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=bismarck423)](https://github.com/anuraghazra/github-readme-stats)
+  
+
+- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=bismarck423)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 技能
 
