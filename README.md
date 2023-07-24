@@ -32,5 +32,5 @@
 如果你有任何问题或需要帮助，请随时联系我：
 - 邮箱：2384722295@qq.com
 
-- [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=很高兴一起交流;感谢您的访问)](https://git.io/typing-svg)
+- [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=很高兴一起交流;感谢您的访问&size=40)](https://git.io/typing-svg)
 
