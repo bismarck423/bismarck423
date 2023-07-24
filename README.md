@@ -24,3 +24,4 @@
 如果你有任何问题或需要帮助，请随时联系我：
 - 邮箱：2384722295@qq.com
 让我们一起学习进步并合作开展令人兴奋的项目吧！
+<div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=sun0225SUN&theme=xcode" /> </div>
