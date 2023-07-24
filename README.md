@@ -31,5 +31,6 @@
 
 如果你有任何问题或需要帮助，请随时联系我：
 - 邮箱：2384722295@qq.com
-让我们一起学习进步并合作开展令人兴奋的项目吧！
+<h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Hello%2C%20World!%22);祝您今天愉快，让我们一起学习进步并合作开展令人兴奋的项目吧!&center=true&size=27"> </a> </h1>
+
 
