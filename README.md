@@ -9,7 +9,9 @@
 - 🌐 我不断学习和提升自己的技能。
 - 📚 我接受了广泛的编程语言和框架的训练。
 - 🎮 我喜欢处理数据和解决复杂问题。
- ![Views](https://komarev.com/ghpvc/?username=bismarck423&color=blue)
+
+ 
+-![Views](https://komarev.com/ghpvc/?username=bismarck423&color=blue)
   
 
 
