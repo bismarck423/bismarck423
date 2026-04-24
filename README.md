@@ -63,4 +63,11 @@
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=bismarck423&bg_color=0A1128&color=00A8E8&line=00B4D8&point=E0F4FF&hide_border=true" alt="bismarck423's github activity graph" width="100%"/>
   </a>
 
+  <div align="center">
+  <img src="./assets/tactical-hud.svg" width="600" alt="Tactical HUD Telemetry"/>
+  <p style="color: #00B4D8; font-family: monospace; font-size: 12px;">
+    > SIGNAL ACQUIRED: bismarck423 // SECURE LINK ESTABLISHED
+  </p>
+</div>
+
 </div>

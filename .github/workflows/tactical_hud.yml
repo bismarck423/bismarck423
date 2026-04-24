@@ -1,0 +1,31 @@
+﻿name: Tactical HUD Telemetry Update
+
+on:
+  schedule:
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Generate HUD SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/hud_generator.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "bismarck423-bot"
+          git config --global user.email "bot@bismarck423.local"
+          git add assets/tactical-hud.svg
+          git commit -m "chore: update tactical HUD telemetry" || exit 0
+          git push
