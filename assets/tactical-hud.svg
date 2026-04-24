@@ -1,1 +1,77 @@
-﻿< 这里粘贴上面的所有 SVG 源码 >
+﻿<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" style="background-color: #050A1F; font-family: 'Courier New', monospace;">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <pattern id="aesa-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none" stroke="#0077B6" stroke-width="0.3" opacity="0.4"/>
+      <circle cx="10" cy="10" r="0.8" fill="#0077B6" opacity="0.3"/>
+    </pattern>
+
+    <linearGradient id="scan-beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00BFFF" stop-opacity="0" />
+      <stop offset="80%" stop-color="#00BFFF" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#00BFFF" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+
+  <g fill="#00B4D8" font-size="12" font-weight="bold">
+    <text x="50" y="80">SPD: MACH 2.4</text>
+    <text x="50" y="110">ALT: 42,000 FT</text>
+    <text x="50" y="140">CMT: 1,024 BLKS</text>
+    <text x="50" y="170">STRK: 42 DAYS</text>
+  </g>
+  <g stroke="#00B4D8" stroke-width="2" opacity="0.8">
+    <line x1="130" y1="105" x2="150" y2="105" />
+    <line x1="140" y1="135" x2="160" y2="135" />
+    <line x1="130" y1="165" x2="150" y2="165" />
+  </g>
+
+  <g transform="translate(200, 50)">
+    <rect width="200" height="200" fill="url(#aesa-grid)" stroke="#00BFFF" stroke-width="1" filter="url(#glow)" />
+    
+    <line x1="100" y1="0" x2="100" y2="200" stroke="#0077B6" stroke-width="1" opacity="0.6" stroke-dasharray="4 4" />
+    <line x1="0" y1="100" x2="200" y2="100" stroke="#0077B6" stroke-width="1" opacity="0.6" stroke-dasharray="4 4" />
+
+    <g>
+      <rect x="0" y="0" width="200" height="50" fill="url(#scan-beam)">
+        <animate attributeName="y" values="-50;200;-50" dur="2.5s" repeatCount="indefinite" />
+      </rect>
+      <line x1="0" y1="50" x2="200" y2="50" stroke="#00BFFF" stroke-width="2" filter="url(#glow)">
+        <animate attributeName="y1" values="0;250;0" dur="2.5s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="0;250;0" dur="2.5s" repeatCount="indefinite" />
+      </line>
+    </g>
+
+    <circle cx="140" cy="60" r="3" fill="#00BFFF" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="70" cy="130" r="4" fill="#90E0EF" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.1;1;0.1" dur="2.5s" begin="0.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="110" cy="80" r="2" fill="#00BFFF" filter="url(#glow)">
+       <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+    
+    <g stroke="#00BFFF" stroke-width="1.5" fill="none" filter="url(#glow)">
+      <path d="M 60 120 L 60 110 L 70 110" />
+      <path d="M 80 120 L 80 110 L 70 110" />
+      <path d="M 60 140 L 60 150 L 70 150" />
+      <path d="M 80 140 L 80 150 L 70 150" />
+      <animateTransform attributeName="transform" type="scale" values="1;1.05;1" cx="70" cy="130" dur="1.2s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g fill="#90E0EF" font-size="12">
+    <text x="450" y="80">SYS_CHK: OK</text>
+    <text x="450" y="110">L_WPN: PYTHON</text>
+    <text x="450" y="140">R_WPN: GO_LANG</text>
+    <text x="450" y="170">DEF: C_PLUS_PLUS</text>
+    <text x="450" y="200" fill="#00BFFF" filter="url(#glow)">TRK: LOCKED</text>
+  </g>
+</svg>
