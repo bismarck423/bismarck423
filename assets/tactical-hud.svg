@@ -69,7 +69,7 @@
 
   <g fill="#90E0EF" font-size="12">
     <text x="450" y="80">SYS_CHK: OK</text>
-    <text x="450" y="110">L_WPN: PYTHON</text>
+    <text x="450" y="110">L_WPN: JAVA</text>
     <text x="450" y="140">R_WPN: GO_LANG</text>
     <text x="450" y="170">DEF: C_PLUS_PLUS</text>
     <text x="450" y="200" fill="#00BFFF" filter="url(#glow)">TRK: LOCKED</text>
