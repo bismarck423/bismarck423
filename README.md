@@ -2,7 +2,7 @@
 
 # `whoami` -> bismarck423
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=00BFFF&background=00000000&center=true&vCenter=true&width=600&lines=>+root@bismarck423:~%23+Hello,+World!;>+root@bismarck423:~%23+I'm+a+Cybersecurity+Undergraduate.;>+root@bismarck423:~%23+Let's+explore+the+matrix!&size=30)](https://git.io/typing-svg)
+<img src="./assets/tactical-hud.svg" width="600" alt="Tactical HUD Telemetry"/>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=bismarck423&color=0077B6&style=for-the-badge&label=PROFILE+VIEWS" alt="Views"/>
