@@ -1,9 +1,12 @@
-﻿name: Tactical HUD Telemetry Update
+name: Tactical HUD Telemetry Update
 
 on:
   schedule:
     - cron: '0 18 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build-and-update:
@@ -17,18 +20,17 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
-        run: pip install requests
-
       - name: Generate HUD SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/hud_generator.py
 
       - name: Commit and Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "bismarck423-bot"
           git config --global user.email "bot@bismarck423.local"
           git add assets/tactical-hud.svg
           git commit -m "chore: update tactical HUD telemetry" || exit 0
-          git push
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/bismarck423/bismarck423.git HEAD:main
