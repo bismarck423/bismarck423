@@ -21,10 +21,10 @@
   </defs>
 
   <g fill="#00B4D8" font-size="12" font-weight="bold">
-    <text x="50" y="80">SPD: MACH 2.4</text>
+    <text x="50" y="80">ACT: STABLE</text>
     <text x="50" y="110">ALT: 42,000 FT</text>
-    <text x="50" y="140">CMT: 1,024 BLKS</text>
-    <text x="50" y="170">STRK: 42 DAYS</text>
+    <text x="50" y="140">CMT: 57 BLKS</text>
+    <text x="50" y="170">STRK: 1 DAYS</text>
   </g>
   <g stroke="#00B4D8" stroke-width="2" opacity="0.8">
     <line x1="130" y1="105" x2="150" y2="105" />
@@ -70,8 +70,8 @@
   <g fill="#90E0EF" font-size="12">
     <text x="450" y="80">SYS_CHK: OK</text>
     <text x="450" y="110">L_WPN: JAVA</text>
-    <text x="450" y="140">R_WPN: GO_LANG</text>
-    <text x="450" y="170">DEF: C_PLUS_PLUS</text>
+    <text x="450" y="140">R_WPN: DOCKER</text>
+    <text x="450" y="170">DEF: KALI</text>
     <text x="450" y="200" fill="#00BFFF" filter="url(#glow)">TRK: LOCKED</text>
   </g>
 </svg>
