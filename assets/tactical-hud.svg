@@ -24,7 +24,7 @@
     <text x="50" y="80">ACT: STABLE</text>
     <text x="50" y="110">ALT: 42,000 FT</text>
     <text x="50" y="140">CMT: 57 BLKS</text>
-    <text x="50" y="170">STRK: 1 DAYS</text>
+    <text x="50" y="170">STRK: 0 DAYS</text>
   </g>
   <g stroke="#00B4D8" stroke-width="2" opacity="0.8">
     <line x1="130" y1="105" x2="150" y2="105" />
